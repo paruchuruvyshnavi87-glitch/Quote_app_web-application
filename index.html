@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote of the Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<div class="navbar">
+    <a href="home.html">🏠 Home</a>
+    <a href="favorites.html">❤️ Favorites</a>
+</div>
+
+<!-- Main Container -->
+<div class="container">
+    <h1>💬 Quote of the Day</h1>
+
+    <!-- Date Picker -->
+    <label for="datePicker"><strong>Select Date:</strong></label>
+    <input type="date" id="datePicker">
+
+    <!-- Selected Date Display -->
+    <p id="todayDate"></p>
+
+    <!-- Quote Box -->
+    <div id="quoteBox">
+        <p id="quoteText">Select a date to view the quote</p>
+        <small id="quoteAuthor"></small>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="buttons">
+        <button id="newBtn">New Quote</button>
+        <button id="saveBtn">Save ❤️</button>
+        <button id="shareBtn">Share 🔗</button>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
